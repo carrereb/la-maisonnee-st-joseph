@@ -1,0 +1,100 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(5, 85, 5, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("../assets/photo_de_groupe.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 800px;
+}
+
+.title>h1,
+.title>h2 {
+  color: white;
+  margin: 10px 20px;
+}
+
+.header>img {
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.header>.title {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+  background-color: #e1e805;
+}
+.menu a {
+  text-decoration: none;
+  color: inherit;
+  width: fit-content;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 3px;
+  background-color: beige;
+  width: 100%;
+  margin: 1px 0;
+}
+
+.menu a:hover {
+  background-color: blue;
+}
+
+.content {
+  width: 80%;
+  background-color: rgba(5, 85, 5, 1);
+  padding: 10px;
+}
+
+.content>p {
+  color: white;
+}
+
+.footer {
+  background-color: rgba(5, 85, 5, 1);
+}
+
+.separation {
+  color: white;
+}
