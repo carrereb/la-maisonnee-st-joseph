@@ -93,12 +93,12 @@ body {
   background-color: rgb(243, 232, 188);
 }
 
-.content {
+.main>#main-content {
   width: 75%;
   padding: 10px;
 }
 
-.content>p {
+.main .content>p {
   color: white;
 }
 
