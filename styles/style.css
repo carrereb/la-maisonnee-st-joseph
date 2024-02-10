@@ -22,39 +22,44 @@ body {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-image: url("../assets/photo_de_groupe.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  min-height: 800px;
-}
-
-.title>h1,
-.title>h2 {
-  color: white;
-  margin: 10px 20px;
-}
-
-.header>img {
   position: relative;
+  height: 100%;
+}
+
+.header>#presentation {
+  width: 100%;
+  height: fit-content
+}
+
+.header>#logo {
+  position: absolute;
   top: 0;
   right: 0;
-  height: 100px;
+  width: 8%;
   border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .header>.title {
+  position: absolute;
   display: flex;
-  width: 75%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.header>.title>h1,
+.header>.title>h2 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .main {
   display: flex;
+  flex-direction: row;
 }
 
 .menu {
@@ -64,7 +69,12 @@ body {
   height: 100%;
   background-color: #e1e805;
 }
+
 .menu a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: inherit;
   width: fit-content;
@@ -73,7 +83,8 @@ body {
   border-color: black;
   border-radius: 3px;
   background-color: beige;
-  width: 100%;
+  width: calc(100% - 4px);
+  height: 30px;
   margin: 1px 0;
 }
 
@@ -93,6 +104,7 @@ body {
 
 .footer {
   background-color: rgba(5, 85, 5, 1);
+  color: white;
 }
 
 .separation {
