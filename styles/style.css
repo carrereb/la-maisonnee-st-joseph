@@ -24,14 +24,19 @@ body {
 .main {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: rgb(22, 82, 62);
 }
 
 .main>#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
   width: 75%;
-  padding: 10px;
 }
 
 .main .content>p {
   color: white;
+  margin: 15px 0;
 }
