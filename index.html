@@ -7,22 +7,12 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <script type="text/javascript" src="index.js"></script>
-    <div class="header">
-      <img id="presentation" src="assets/photo_de_groupe.jpg" alr="Photos des jeunes de la Maisonnée" />
-      <img id="logo" src="assets/logo-maisonnee.png" alt="logo de la Maisonnée" />
-      <div class="title">
-        <h1>La Maisonnée Saint Joseph</h1>
-        <h2>Ici on joue, ici on prie</h2>
-      </div>
-    </div>
+    <script src="web-components/header.js"></script>
+    <script src="web-components/menu.js"></script>
+    <script src="web-components/footer.js"></script>
+    <x-header></x-header>
     <div class="main">
-      <div class="menu">
-        <a href="index.html">Accueil</a>
-        <a href="javascript:loadContent('/informations-pratiques.html')">Informations pratiques</a>
-        <a href="javascript:loadContent('/activites.html')">Activités</a>
-        <a href="javascript:loadContent('/contacts.html')">Contacts</a>
-      </div>
+      <x-menu></x-menu>
       <div id="main-content">
         <div class="content">
           <p>
@@ -48,12 +38,6 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <hr class="separation" />
-      <div class="content">
-        <p>Dernière mise à jour le 09/02/2024</p>
-        <p>© La Maisonnée Saint Joseph</p>
-      </div>
-    </div>
+    <x-footer></x-footer>
   </body>
 </html>
