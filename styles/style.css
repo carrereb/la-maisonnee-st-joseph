@@ -27,14 +27,18 @@ body {
   background-color: rgb(22, 82, 62);
 }
 
-.main>#main-content {
+.main .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-content: center;
+  padding: 5px;
 }
 
-.main .content>p {
-  color: white;
-  margin: 15px 0;
+.main .content>p,
+.main .content li,
+.main .content a,
+.main .content>h3,
+.main .content>h2 {
+  color: rgb(209, 204, 184);
+  margin: 10px 0;
 }
