@@ -1,7 +1,7 @@
 const footerTemplate = document.createElement("template");
 
 footerTemplate.innerHTML = `
-<link rel="stylesheet" href="styles/footer.css">
+<link rel="stylesheet" href="../styles/footer.css">
 <div class="footer">
   <hr class="separation" />
   <div class="content">
@@ -15,7 +15,7 @@ footerTemplate.innerHTML = `
       <p>34070 Montpellier</p>
     </div>
     <div id="contacts">
-      <a href="contacts.html">Contacts</a>
+      <a href="../contacts/index.html">Contacts</a>
     </div>
   </div>
 </div>
