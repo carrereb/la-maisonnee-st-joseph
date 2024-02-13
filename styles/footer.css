@@ -33,3 +33,8 @@
 .footer #contacts>a {
   text-decoration: none;
 }
+
+.footer a,
+.footer p {
+  color: rgb(209, 204, 184);
+}

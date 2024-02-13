@@ -40,8 +40,25 @@ body {
 .main .content h3,
 .main .content h2,
 .main .content h1 {
-  color: rgb(209, 204, 184);
   margin: 10px 0;
+}
+
+.main .content p,
+.main .content li,
+.main .content a {
+  color: rgb(209, 204, 184);
+}
+
+.main .content h1 {
+  color: rgb(235, 245, 94);
+}
+
+.main .content h2 {
+  color: rgb(207, 206, 108);
+}
+
+.main .content h3 {
+  color: rgb(238, 225, 151);
 }
 
 .main #presentation {
