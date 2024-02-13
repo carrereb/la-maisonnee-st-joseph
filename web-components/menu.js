@@ -1,11 +1,11 @@
 const menuTemplate = document.createElement("template");
 
 menuTemplate.innerHTML = `
-<link rel="stylesheet" href="styles/menu.css">
+<link rel="stylesheet" href="/styles/menu.css">
 <div class="menu">
   <a href="index.html">Accueil</a>
-  <a href="informations-pratiques.html">Informations pratiques</a>
-  <a href="activites.html">Activités</a>
+  <a href="informations-pratiques/index.html">Informations pratiques</a>
+  <a href="activites/index.html">Activités</a>
   <a href="contacts.html">Contacts</a>
 </div>
 `;
