@@ -7,7 +7,7 @@ headerTemplate.innerHTML = `
   <img id="logo" src="../assets/logo-maisonnee.png" alt="logo de la Maisonnée" />
   <div class="title">
     <h1>La Maisonnée Saint Joseph</h1>
-    <h2>Ici on joue, ici on prie</h2>
+    <h2>Ici on joue, ici on prie, ici on s'aime</h2>
   </div>
 </div>
 `;
