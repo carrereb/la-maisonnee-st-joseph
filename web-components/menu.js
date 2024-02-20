@@ -13,6 +13,7 @@ menuTemplate.innerHTML = `
   <div id="activites" onmouseenter="Menu.getMenu().showUnderMenu('activites')" onmouseleave="Menu.getMenu().hideUnderMenu('activites')">
     <a href="../activites/camps.html">Camps</a>
     <a href="../activites/evenements.html">Événements</a>
+    <a href="../activites/catechisme.html">Catéchisme</a>
   </div>
   <a href="../contacts/index.html">Contacts</a>
 </div>
